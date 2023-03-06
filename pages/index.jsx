@@ -23,7 +23,7 @@ export default function Home() {
 
   const [loading, setLoading] = useState(false);
 
-  const [address, setAddress] = useState("pitpat.eth");
+  const [address, setAddress] = useState("");
 
   const [response, setResponse] = useState({});
 
