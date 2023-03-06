@@ -77,7 +77,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Flex flexDir={"column"}>
+      <Flex flexDir={"column"} minH={"100vh"}>
         {loading && <Loader />}
         <Flex justify={"center"} mt={5}>
           <Flex>
